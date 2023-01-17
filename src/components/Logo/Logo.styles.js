@@ -4,7 +4,7 @@ import styled from "styled-components";
     * =========== MainLogo =========== *
 **/
 export const MainLogo = styled.h1`
-    padding-inline: 2rem;
+    padding-inline: 0;
     display: flex;
     justify-content: center;
     align-items: center;

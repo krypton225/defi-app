@@ -23,6 +23,11 @@ html {
 html,
 body {
   font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  /* height: 200000px; */
 }
 
 a {

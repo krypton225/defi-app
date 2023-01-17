@@ -5,7 +5,9 @@ import {
     NavbarContent,
     NavbarLinkItems,
     NavbarListContainer,
-    NavbarListItems
+    NavbarListItems,
+    ToggleButton,
+    ToggleLine
 } from "./Navbar.styles";
 
 import CustomButton from "../CustomButton/CustomButton";
@@ -34,6 +36,12 @@ const Navbar = () => {
                     </NavbarListContainer>
 
                     <CustomButton goTo="/" text={"connect wallet"} />
+
+                    <ToggleButton>
+                        <ToggleLine></ToggleLine>
+                        <ToggleLine></ToggleLine>
+                        <ToggleLine></ToggleLine>
+                    </ToggleButton>
                 </NavbarContent>
             </Container>
         </NavbarContainer>
