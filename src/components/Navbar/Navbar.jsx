@@ -10,6 +10,8 @@ import {
 
 import CustomButton from "../CustomButton/CustomButton";
 
+import NavbarItemsArray from "../../data/navbar-items";
+
 import Logo from "../Logo/Logo";
 
 const Navbar = () => {
@@ -20,21 +22,15 @@ const Navbar = () => {
                     <Logo />
 
                     <NavbarListContainer>
-                        <NavbarListItems>
-                            <NavbarLinkItems href="/">home</NavbarLinkItems>
-                        </NavbarListItems>
-
-                        <NavbarListItems>
-                            <NavbarLinkItems href="/">featured</NavbarLinkItems>
-                        </NavbarListItems>
-
-                        <NavbarListItems>
-                            <NavbarLinkItems href="/">earn</NavbarLinkItems>
-                        </NavbarListItems>
-
-                        <NavbarListItems>
-                            <NavbarLinkItems href="/">contact</NavbarLinkItems>
-                        </NavbarListItems>
+                        {
+                            NavbarItemsArray.map(({ id, linkText, pathLinkRoute }) => (
+                                <NavbarListItems key={id}>
+                                    <NavbarLinkItems href={`${pathLinkRoute}`}>
+                                        {linkText}
+                                    </NavbarLinkItems>
+                                </NavbarListItems>
+                            ))
+                        }
                     </NavbarListContainer>
 
                     <CustomButton goTo="/" text={"connect wallet"} />
