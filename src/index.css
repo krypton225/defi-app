@@ -64,6 +64,7 @@ svg,
 .toggle-bar-second {
   visibility: hidden;
   opacity: 0;
+  transform: translateX(2rem);
 }
 
 .toggle-bar-third {
