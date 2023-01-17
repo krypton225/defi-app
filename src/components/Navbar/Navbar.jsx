@@ -1,7 +1,6 @@
 import Container from "../../utils/container";
 
 import {
-    LogoImageStyle,
     NavbarContainer,
     NavbarContent,
     NavbarLinkItems,
@@ -9,18 +8,16 @@ import {
     NavbarListItems
 } from "./Navbar.styles";
 
-import LogoImage from "../../assets/svg/logo.svg";
-
 import CustomButton from "../CustomButton/CustomButton";
+
+import Logo from "../Logo/Logo";
 
 const Navbar = () => {
     return (
         <NavbarContainer>
             <Container>
                 <NavbarContent>
-                    <LogoImageStyle>
-                        <img src={LogoImage} alt="Logo" />
-                    </LogoImageStyle>
+                    <Logo />
 
                     <NavbarListContainer>
                         <NavbarListItems>

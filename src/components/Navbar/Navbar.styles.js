@@ -20,16 +20,6 @@ export const NavbarContent = styled.div`
 `;
 
 /* *
-    * =========== LogoImageStyle =========== *
-**/
-export const LogoImageStyle = styled.div`
-    width: 6.6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`;
-
-/* *
     * =========== NavbarListContainer =========== *
 **/
 export const NavbarListContainer = styled.ul`
