@@ -11,6 +11,7 @@ export const NavbarContainer = styled.nav`
     left: 0;
     padding-block: 0.9rem;
     background-color: white;
+    z-index: 999999999;
 `;
 
 /* *
@@ -42,6 +43,7 @@ export const NavbarListContainer = styled.ul`
         flex-direction: column;
         background-color: white;
         z-index: 9999999;
+        transition: all 0.5s ease-in-out;
     }
 
     @media (max-width: 767px) {
@@ -64,9 +66,14 @@ export const NavbarListItems = styled.li`
 export const NavbarLinkItems = styled.a`
    display: block;
    padding: 0.4rem 1rem;
-   font-size: 1.6rem;
-   font-weight: var(--fw-500);
+   font-size: 1.7rem;
+   font-weight: 600;
    color: #000;
+
+   &:hover {
+    color: var(--primary-color);
+    transition: all 0.3s ease-out;
+   }
 
    @media (max-width: 768px) {
     font-size: 2.1rem;
@@ -99,7 +106,9 @@ export const ToggleButton = styled.button`
 **/
 export const ToggleLine = styled.span`
    width: 100%;
-   height: 0.2rem;
+   height: 0.3rem;
+   display: block;
    border-radius: 0.4rem;
    background-color: #000;
+   transition: all 0.5s ease-in-out;
 `;

@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import Container from "../../utils/container";
 
 import {
@@ -17,17 +19,28 @@ import NavbarItemsArray from "../../data/navbar-items";
 import Logo from "../Logo/Logo";
 
 const Navbar = () => {
+    const [isResponsive, setIsResponsive] = useState(false);
+
+    const openNavbarHandler = () => {
+        setIsResponsive(prev => !prev);
+    };
+
+    const closeNavbarWhenClickLink = (e) => {
+        e.preventDefault();
+        setIsResponsive(false);
+    }
+
     return (
         <NavbarContainer>
             <Container>
                 <NavbarContent>
                     <Logo />
 
-                    <NavbarListContainer>
+                    <NavbarListContainer className={`${isResponsive ? "open-navbar-responsive" : ""}`}>
                         {
                             NavbarItemsArray.map(({ id, linkText, pathLinkRoute }) => (
                                 <NavbarListItems key={id}>
-                                    <NavbarLinkItems href={`${pathLinkRoute}`}>
+                                    <NavbarLinkItems href={`${pathLinkRoute}`} onClick={closeNavbarWhenClickLink}>
                                         {linkText}
                                     </NavbarLinkItems>
                                 </NavbarListItems>
@@ -37,10 +50,10 @@ const Navbar = () => {
 
                     <CustomButton goTo="/" text={"connect wallet"} />
 
-                    <ToggleButton>
-                        <ToggleLine></ToggleLine>
-                        <ToggleLine></ToggleLine>
-                        <ToggleLine></ToggleLine>
+                    <ToggleButton onClick={openNavbarHandler}>
+                        <ToggleLine className={`${isResponsive ? "toggle-bar-first" : ""}`}></ToggleLine>
+                        <ToggleLine className={`${isResponsive ? "toggle-bar-second" : ""}`}></ToggleLine>
+                        <ToggleLine className={`${isResponsive ? "toggle-bar-third" : ""}`}></ToggleLine>
                     </ToggleButton>
                 </NavbarContent>
             </Container>

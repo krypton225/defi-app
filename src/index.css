@@ -50,3 +50,22 @@ svg,
 .tap-light-remove {
   -webkit-tap-highlight-color: transparent !important;
 }
+
+/* * Custom classes used in whole application */
+
+.open-navbar-responsive {
+  right: 0 !important;
+}
+
+.toggle-bar-first {
+  transform: rotate(-45deg) translateY(1rem);
+}
+
+.toggle-bar-second {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.toggle-bar-third {
+  transform: rotate(45deg) translateY(-0.96rem);
+}
