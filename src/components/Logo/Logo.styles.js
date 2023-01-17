@@ -23,7 +23,7 @@ export const MainLogoLink = styled.a`
     * =========== LogoImageStyle =========== *
 **/
 export const LogoImageStyle = styled.div`
-    width: 6.6rem;
+    width: 4.4rem;
     display: flex;
     justify-content: center;
     align-items: center;

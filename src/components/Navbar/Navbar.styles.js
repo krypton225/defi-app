@@ -5,8 +5,9 @@ import styled from "styled-components";
 **/
 export const NavbarContainer = styled.nav`
     width: 100%;
+    border-bottom: 1px solid #eee;
     position: relative;
-    padding-block: 1.1rem;
+    padding-block: 0.9rem;
     background-color: white;
 `;
 
