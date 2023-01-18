@@ -6,12 +6,6 @@ import Container from "../../utils/container";
 
 import {
     LandingStyle,
-    LandingContent,
-    LeftLandingContent,
-    DescriptionLeftLandingContent,
-    TitleLeftLandingContent,
-    ContainerLandingButtons,
-    RightLandingContent,
     Explore,
     ExploreContent,
     ExploreLeft,
@@ -28,9 +22,9 @@ import {
     ExploreRightRowDataItemATL,
 } from "./Landing.styles";
 
-import LandingImage from "../../assets/images/hero-img.png";
-
 import CustomButton from "../../components/CustomButton/CustomButton";
+
+import FirstLanding from "./FirstLanding";
 
 const URL =
     `https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=6&page=1&sparkline=false`;
@@ -45,30 +39,7 @@ const Landing = () => {
 
     return (
         <LandingStyle>
-            <Container>
-                <LandingContent>
-                    <LeftLandingContent>
-                        <DescriptionLeftLandingContent>
-                            buy & sell crypto 24/7 using your retirement account
-                        </DescriptionLeftLandingContent>
-
-                        <TitleLeftLandingContent>invest in cryptocurrency with your IRA</TitleLeftLandingContent>
-
-                        <DescriptionLeftLandingContent>
-                            buy, sell and store hundreds of cryptocurrencies
-                        </DescriptionLeftLandingContent>
-
-                        <ContainerLandingButtons>
-                            <CustomButton goTo="/contact" text={"enter your email"} bgColor="bg-color-2" />
-                            <CustomButton goTo="/" text={"learn more"} bgColor="bg-color-1" />
-                        </ContainerLandingButtons>
-                    </LeftLandingContent>
-
-                    <RightLandingContent>
-                        <img src={LandingImage} alt="Hero Landing" draggable="false" />
-                    </RightLandingContent>
-                </LandingContent>
-            </Container>
+            <FirstLanding />
 
             <Explore>
                 <Container>
