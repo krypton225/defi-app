@@ -31,7 +31,7 @@ const Landing = () => {
                         </DescriptionLeftLandingContent>
 
                         <ContainerLandingButtons>
-                            <CustomButton goTo="/" text={"enter your email"} bgColor="bg-color-2" />
+                            <CustomButton goTo="/contact" text={"enter your email"} bgColor="bg-color-2" />
                             <CustomButton goTo="/" text={"learn more"} bgColor="bg-color-1" />
                         </ContainerLandingButtons>
                     </LeftLandingContent>

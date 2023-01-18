@@ -5,7 +5,6 @@ import styled from "styled-components";
 **/
 export const LandingStyle = styled.section`
     width: 100%;
-    /* height: 100vh; */
 `;
 
 /* *
@@ -55,14 +54,20 @@ export const TitleLeftLandingContent = styled.h2`
 * =========== ContainerLandingButtons =========== *
 **/
 export const ContainerLandingButtons = styled.div`
-    width: 65%;
+    width: 95%;
     margin-top: 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    @media (max-width: 840px) {
+    @media (max-width: 841px) {
         width: 100%;
+        justify-content: center;
+    }
+
+    @media (min-width: 769px) and (max-width: 840px) {
+        width: 65%;
+        margin-inline: auto;
         justify-content: center;
     }
 `;

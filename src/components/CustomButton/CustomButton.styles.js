@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 import styled from "styled-components";
 
 /* *
 * =========== NavbarListItems =========== *
 **/
-const CustomButton = styled.a`
+const CustomButton = styled(Link)`
     width: 14rem;
     display: flex;
     justify-content: center;
