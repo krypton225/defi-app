@@ -30,6 +30,29 @@ body {
   /* height: 200000px; */
 }
 
+body::-webkit-scrollbar {
+  width: 0;
+  border-radius: 4.5rem;
+  background-color: transparent !important;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent !important;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent !important;
+}
+
+body::-webkit-scrollbar-track-piece {
+  display: none;
+}
+
+::selection {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
 a {
   text-decoration: none !important;
 }
@@ -74,4 +97,12 @@ svg,
 
 .toggle-bar-third {
   transform: rotate(45deg) translateY(-0.96rem);
+}
+
+.bg-color-1 {
+  background-color: var(--primary-color);
+}
+
+.bg-color-2 {
+  background-color: var(--secondary-color);
 }

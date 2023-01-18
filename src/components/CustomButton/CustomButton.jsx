@@ -1,8 +1,8 @@
 import CustomButtonStyle from "./CustomButton.styles";
 
-const CustomButton = ({ text, goTo = "" }) => {
+const CustomButton = ({ text, goTo = "", bgColor = "" }) => {
     return (
-        <CustomButtonStyle href={`${goTo}`}>
+        <CustomButtonStyle href={`${goTo}`} className={`${bgColor}`}>
             {text}
         </CustomButtonStyle>
     )

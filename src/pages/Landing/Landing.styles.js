@@ -5,8 +5,7 @@ import styled from "styled-components";
 **/
 export const LandingStyle = styled.section`
     width: 100%;
-    height: 100vh;
-    /* background-color: blue; */
+    /* height: 100vh; */
 `;
 
 /* *
@@ -19,11 +18,10 @@ export const LandingContent = styled.div`
     grid-template-columns: 48% 48%;
     align-items: center;
     gap: 4%;
-    /* background-color: red; */
 
     @media (max-width: 840px) {
         grid-template-columns: 100%;
-        gap: 5rem;
+        gap: 4rem;
         text-align: center;
     }
 `;
@@ -51,6 +49,22 @@ export const TitleLeftLandingContent = styled.h2`
     font-weight: var(--fw-700);
     font-size: 4rem;
     text-transform: capitalize;
+`;
+
+/* *
+* =========== ContainerLandingButtons =========== *
+**/
+export const ContainerLandingButtons = styled.div`
+    width: 65%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 840px) {
+        width: 100%;
+        justify-content: center;
+    }
 `;
 
 /* *

@@ -1,8 +1,18 @@
 import Container from "../../utils/container";
 
-import { LandingStyle, LandingContent, LeftLandingContent, DescriptionLeftLandingContent, TitleLeftLandingContent, RightLandingContent } from "./Landing.styles";
+import {
+    LandingStyle,
+    LandingContent,
+    LeftLandingContent,
+    DescriptionLeftLandingContent,
+    TitleLeftLandingContent,
+    ContainerLandingButtons,
+    RightLandingContent
+} from "./Landing.styles";
 
 import LandingImage from "../../assets/images/hero-img.png";
+
+import CustomButton from "../../components/CustomButton/CustomButton";
 
 const Landing = () => {
     return (
@@ -19,6 +29,11 @@ const Landing = () => {
                         <DescriptionLeftLandingContent>
                             buy, sell and store hundreds of cryptocurrencies
                         </DescriptionLeftLandingContent>
+
+                        <ContainerLandingButtons>
+                            <CustomButton goTo="/" text={"enter your email"} bgColor="bg-color-2" />
+                            <CustomButton goTo="/" text={"learn more"} bgColor="bg-color-1" />
+                        </ContainerLandingButtons>
                     </LeftLandingContent>
 
                     <RightLandingContent>
