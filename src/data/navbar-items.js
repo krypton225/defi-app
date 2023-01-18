@@ -1,29 +1,33 @@
 import GenerateID from "../utils/generate-id";
 
+import Landing from "../pages/Landing/Landing";
+
+import Featured from "../pages/Featured/Featured";
+
+import Earn from "../pages/Earn/Earn";
+
+import Contact from "../pages/Contact/Contact";
+
 const navbarItems = [
     {
         linkText: "home",
         pathLinkRoute: "/",
-        // routeComponent:
-        // sendTo:
+        routeComponent: <Landing />
     },
     {
         linkText: "featured",
         pathLinkRoute: "/featured",
-        // routeComponent:
-        // sendTo:
+        routeComponent: <Featured />
     },
     {
         linkText: "earn",
         pathLinkRoute: "/earn",
-        // routeComponent:
-        // sendTo:
+        routeComponent: <Earn />
     },
     {
         linkText: "contact",
         pathLinkRoute: "/contact",
-        // routeComponent:
-        // sendTo:
+        routeComponent: <Contact />
     },
 ];
 

@@ -45,6 +45,10 @@ img {
   object-fit: cover;
 }
 
+section {
+  padding-block: 12rem;
+}
+
 a,
 svg,
 .tap-light-remove {

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 /* *
@@ -57,15 +58,16 @@ export const NavbarListContainer = styled.ul`
 **/
 export const NavbarListItems = styled.li`
     margin-inline: 1rem;
+    padding-block: 0.8rem;
     text-transform: capitalize;
 `;
 
 /* *
 * =========== NavbarListItems =========== *
 **/
-export const NavbarLinkItems = styled.a`
+export const NavbarLinkItems = styled(Link)`
    display: block;
-   padding: 0.4rem 1rem;
+   padding: 0.5rem 1rem;
    font-size: 1.7rem;
    font-weight: 600;
    color: #000;

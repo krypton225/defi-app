@@ -25,10 +25,7 @@ const Navbar = () => {
         setIsResponsive(prev => !prev);
     };
 
-    const closeNavbarWhenClickLink = (e) => {
-        e.preventDefault();
-        setIsResponsive(false);
-    }
+    const closeNavbarWhenClickLink = () => setIsResponsive(false);
 
     return (
         <NavbarContainer>
@@ -40,7 +37,7 @@ const Navbar = () => {
                         {
                             NavbarItemsArray.map(({ id, linkText, pathLinkRoute }) => (
                                 <NavbarListItems key={id}>
-                                    <NavbarLinkItems href={`${pathLinkRoute}`} onClick={closeNavbarWhenClickLink}>
+                                    <NavbarLinkItems to={`${pathLinkRoute}`} onClick={closeNavbarWhenClickLink}>
                                         {linkText}
                                     </NavbarLinkItems>
                                 </NavbarListItems>
@@ -50,7 +47,7 @@ const Navbar = () => {
 
                     <CustomButton goTo="/" text={"connect wallet"} />
 
-                    <ToggleButton onClick={openNavbarHandler} title="Toggle Button">
+                    <ToggleButton onClick={openNavbarHandler} title="Toggle Button" type="button">
                         <ToggleLine className={`${isResponsive ? "toggle-bar-first" : ""}`}></ToggleLine>
                         <ToggleLine className={`${isResponsive ? "toggle-bar-second" : ""}`}></ToggleLine>
                         <ToggleLine className={`${isResponsive ? "toggle-bar-third" : ""}`}></ToggleLine>
