@@ -50,7 +50,7 @@ const Navbar = () => {
 
                     <CustomButton goTo="/" text={"connect wallet"} />
 
-                    <ToggleButton onClick={openNavbarHandler}>
+                    <ToggleButton onClick={openNavbarHandler} title="Toggle Button">
                         <ToggleLine className={`${isResponsive ? "toggle-bar-first" : ""}`}></ToggleLine>
                         <ToggleLine className={`${isResponsive ? "toggle-bar-second" : ""}`}></ToggleLine>
                         <ToggleLine className={`${isResponsive ? "toggle-bar-third" : ""}`}></ToggleLine>

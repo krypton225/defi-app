@@ -95,6 +95,7 @@ export const ToggleButton = styled.button`
    align-items: center;
    cursor: pointer;
    background-color: white;
+   z-index: 9999999;
 
    @media (max-width: 768px) {
     display: flex;
