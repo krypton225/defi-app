@@ -102,7 +102,7 @@ export const RightLandingContent = styled.div`
 export const Explore = styled.div`
     width: 100%;
     background-color: var(--secondary-color);
-`
+`;
 
 /* *
 * =========== ExploreContent =========== *
@@ -124,7 +124,7 @@ export const ExploreContent = styled.div`
         gap: 7%;
         text-align: center;
     }
-`
+`;
 /* *
 * =========== ExploreLeft =========== *
 **/
@@ -190,7 +190,7 @@ export const ExploreRightRowData = styled.div`
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 4rem 1.4rem;
-
+    
     @media (max-width: 840px) {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -225,7 +225,7 @@ export const ExploreRightRowDataItem = styled.div`
 export const ExploreRightRowDataItemName = styled.p`
     font-weight: var(--fw-700);
     font-size: 1.5rem;
-
+    
     @media (max-width: 840px) {
         font-size: 1.6rem;
     }
@@ -252,4 +252,58 @@ export const ExploreRightRowDataItemPrice = styled.p`
 **/
 export const ExploreRightRowDataItemATL = styled.p`
     font-size: 1.4rem;
+`;
+
+/* *
+* ================================================== *
+* ============ Third Section @ Landing Page ======= *
+* ================================================== *
+**/
+
+export const PassiveIncomeStyle = styled.div`
+    width: 100%;
+`;
+
+export const PassiveIncomeContentStyle = styled.div`
+    width: 100%;
+    height: 100%;
+    padding-block: 5rem;
+    display: grid;
+    grid-template-columns: 45% 48%;
+    align-items: center;
+    gap: 4%;
+
+    @media (max-width: 840px) {
+        padding-top: 0;
+        grid-template-columns: 100%;
+        gap: 4rem;
+        text-align: center;
+    }
+`;
+
+export const PassiveIncomeLeftStyle = styled.div`
+    width: 26rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const PassiveIncomeRightStyle = styled.div`
+    width: 100%;
+    margin-top: 4rem;
+    /* background-color: red; */
+`;
+
+export const PassiveIncomeRightTitle = styled.div`
+    width: 100%;
+    font-size: 3.4rem;
+    font-weight: var(--fw-700);
+    text-transform: capitalize;
+`;
+
+export const PassiveIncomeRightDescription = styled.div`
+    width: 100%;
+    margin-block: 2.3rem;
+    font-size: 1.5rem;
 `;
