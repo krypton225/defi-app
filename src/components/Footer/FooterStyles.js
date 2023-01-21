@@ -1,5 +1,8 @@
 import styled from "styled-components";
 
+/* *
+* =========== FooterMainStyle =========== *
+**/
 export const FooterMainStyle = styled.footer`
     width: 100%;
     position: relative;
@@ -17,6 +20,9 @@ export const FooterMainStyle = styled.footer`
     }
 `;
 
+/* *
+* =========== FooterContainer =========== *
+**/
 export const FooterContainer = styled.div`
     width: 100%;
     display: flex;
@@ -35,6 +41,9 @@ export const FooterContainer = styled.div`
     }
 `;
 
+/* *
+* =========== FooterContainerLists =========== *
+**/
 export const FooterContainerLists = styled.div`
     width: 100%;
     display: grid;
@@ -55,12 +64,18 @@ export const FooterContainerLists = styled.div`
     }
 `;
 
+/* *
+* =========== ColumnContainer =========== *
+**/
 export const ColumnContainer = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
 `;
 
+/* *
+* =========== FooterColumnTitle =========== *
+**/
 export const FooterColumnTitle = styled.p`
     position: relative;
     margin-bottom: 2rem;
@@ -80,15 +95,24 @@ export const FooterColumnTitle = styled.p`
     }
 `;
 
+/* *
+* =========== FooterList =========== *
+**/
 export const FooterList = styled.ul`
     width: 100%;
 `;
 
+/* *
+* =========== FooterListItem =========== *
+**/
 export const FooterListItem = styled.li`
     width: 100%;
     display: block;
 `;
 
+/* *
+* =========== FooterListItemLink =========== *
+**/
 export const FooterListItemLink = styled.a`
     width: 100%;
     display: block;
