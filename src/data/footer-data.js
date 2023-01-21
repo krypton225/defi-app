@@ -6,37 +6,37 @@ const footerItems = [
     {
         listTitle: "support",
         listDataLinks: [
-            { listDataName: "contact us", listDataLink: "/" },
-            { listDataName: "chat", listDataLink: "/" },
-            { listDataName: "help center", listDataLink: "/" },
-            { listDataName: "FAQ", listDataLink: "/" },
+            { listDataName: "contact us", linkTitle: "contact us", listDataLink: "/" },
+            { listDataName: "chat", linkTitle: "chat", listDataLink: "/" },
+            { listDataName: "help center", linkTitle: "help center", listDataLink: "/" },
+            { listDataName: "FAQ", linkTitle: "FAQ", listDataLink: "/" },
         ],
     },
     {
         listTitle: "developers",
         listDataLinks: [
-            { listDataName: "cloud", listDataLink: "/" },
-            { listDataName: "commerce", listDataLink: "/" },
-            { listDataName: "pro", listDataLink: "/" },
-            { listDataName: "API", listDataLink: "/" },
+            { listDataName: "cloud", linkTitle: "cloud", listDataLink: "/" },
+            { listDataName: "commerce", linkTitle: "commerce", listDataLink: "/" },
+            { listDataName: "pro", linkTitle: "pro", listDataLink: "/" },
+            { listDataName: "API", linkTitle: "API", listDataLink: "/" },
         ],
     },
     {
         listTitle: "company",
         listDataLinks: [
-            { listDataName: "about", listDataLink: "/" },
-            { listDataName: "information", listDataLink: "/" },
-            { listDataName: "legal", listDataLink: "/" },
-            { listDataName: "privacy", listDataLink: "/" },
+            { listDataName: "about", linkTitle: "about", listDataLink: "/" },
+            { listDataName: "information", linkTitle: "information", listDataLink: "/" },
+            { listDataName: "legal", linkTitle: "legal", listDataLink: "/" },
+            { listDataName: "privacy", linkTitle: "privacy", listDataLink: "/" },
         ],
     },
     {
         listTitle: "social",
         listDataLinks: [
-            { listDataName: <BsFacebook />, listDataLink: "/" },
-            { listDataName: <BsTwitter />, listDataLink: "/" },
-            { listDataName: <BsLinkedin />, listDataLink: "/" },
-            { listDataName: <BsGithub />, listDataLink: "/" },
+            { listDataName: <BsFacebook />, linkTitle: "facebook", listDataLink: "/" },
+            { listDataName: <BsTwitter />, linkTitle: "twitter", listDataLink: "/" },
+            { listDataName: <BsLinkedin />, linkTitle: "linkedIn", listDataLink: "/" },
+            { listDataName: <BsGithub />, linkTitle: "github", listDataLink: "/" },
         ],
     },
 ];

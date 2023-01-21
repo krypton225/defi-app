@@ -30,9 +30,9 @@ const Footer = () => {
 
                                     <FooterList>
                                         {
-                                            listDataLinks.map(({ id, listDataName, listDataLink }) => (
+                                            listDataLinks.map(({ id, listDataName, linkTitle, listDataLink }) => (
                                                 <FooterListItem key={id}>
-                                                    <FooterListItemLink href={listDataLink}>
+                                                    <FooterListItemLink href={listDataLink} title={linkTitle}>
                                                         {listDataName}
                                                     </FooterListItemLink>
                                                 </FooterListItem>
