@@ -2,9 +2,6 @@ import { Fragment } from "react";
 
 import Container from "../../utils/container";
 
-import { GiCheckMark } from "react-icons/gi";
-import { IoMdClose } from "react-icons/io";
-
 import AllEarnItems from "../../data/earn-items";
 
 import {
