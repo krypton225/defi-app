@@ -35,9 +35,9 @@ const Navbar = () => {
 
                     <NavbarListContainer className={`${isResponsive ? "open-navbar-responsive" : ""}`}>
                         {
-                            NavbarItemsArray.map(({ id, linkText, pathLinkRoute }) => (
+                            NavbarItemsArray.map(({ id, linkText, linkTitle, pathLinkRoute }) => (
                                 <NavbarListItems key={id}>
-                                    <NavbarLinkItems to={`${pathLinkRoute}`} onClick={closeNavbarWhenClickLink}>
+                                    <NavbarLinkItems to={`${pathLinkRoute}`} title={linkTitle} onClick={closeNavbarWhenClickLink}>
                                         {linkText}
                                     </NavbarLinkItems>
                                 </NavbarListItems>

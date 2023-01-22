@@ -11,21 +11,25 @@ import Contact from "../pages/Contact/Contact";
 const navbarItems = [
     {
         linkText: "home",
+        linkTitle: "Home",
         pathLinkRoute: "/",
         routeComponent: <Landing />
     },
     {
         linkText: "featured",
+        linkTitle: "Featured",
         pathLinkRoute: "/featured",
         routeComponent: <Featured />
     },
     {
         linkText: "earn",
+        linkTitle: "Earn",
         pathLinkRoute: "/earn",
         routeComponent: <Earn />
     },
     {
         linkText: "contact",
+        linkTitle: "Contact",
         pathLinkRoute: "/contact",
         routeComponent: <Contact />
     },
