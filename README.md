@@ -1,4 +1,12 @@
-![localhost_3000_ (1)](https://user-images.githubusercontent.com/73050798/213932012-4b93dfbb-3527-483a-b959-2b09b1ba1c40.png)
+# Screenshots for whole application
+
+![Home page](https://user-images.githubusercontent.com/73050798/213933026-f6e5e519-89c8-4af1-aeae-36115479cae0.png)
+
+![Featured page](https://user-images.githubusercontent.com/73050798/213933033-770d92bb-30a1-4657-8784-218c8e712f8a.png)
+
+![Earn page](https://user-images.githubusercontent.com/73050798/213933038-c49870e6-10ee-4172-a025-4ae7fb5f1017.png)
+
+![Contact page](https://user-images.githubusercontent.com/73050798/213933043-7a1fceff-53e5-4c30-926b-04e5d78ef638.png)
 
 # Getting Started with Create React App
 
