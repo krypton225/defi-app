@@ -6,37 +6,37 @@ const footerItems = [
     {
         listTitle: "support",
         listDataLinks: [
-            { listDataName: "contact us", linkTitle: "contact us", listDataLink: "/" },
-            { listDataName: "chat", linkTitle: "chat", listDataLink: "/" },
-            { listDataName: "help center", linkTitle: "help center", listDataLink: "/" },
+            { listDataName: "contact us", linkTitle: "Contact Us", listDataLink: "/" },
+            { listDataName: "chat", linkTitle: "Chat", listDataLink: "/" },
+            { listDataName: "help center", linkTitle: "Help Center", listDataLink: "/" },
             { listDataName: "FAQ", linkTitle: "FAQ", listDataLink: "/" },
         ],
     },
     {
         listTitle: "developers",
         listDataLinks: [
-            { listDataName: "cloud", linkTitle: "cloud", listDataLink: "/" },
-            { listDataName: "commerce", linkTitle: "commerce", listDataLink: "/" },
-            { listDataName: "pro", linkTitle: "pro", listDataLink: "/" },
+            { listDataName: "cloud", linkTitle: "Cloud", listDataLink: "/" },
+            { listDataName: "commerce", linkTitle: "Commerce", listDataLink: "/" },
+            { listDataName: "pro", linkTitle: "Pro", listDataLink: "/" },
             { listDataName: "API", linkTitle: "API", listDataLink: "/" },
         ],
     },
     {
         listTitle: "company",
         listDataLinks: [
-            { listDataName: "about", linkTitle: "about", listDataLink: "/" },
-            { listDataName: "information", linkTitle: "information", listDataLink: "/" },
-            { listDataName: "legal", linkTitle: "legal", listDataLink: "/" },
-            { listDataName: "privacy", linkTitle: "privacy", listDataLink: "/" },
+            { listDataName: "about", linkTitle: "About", listDataLink: "/" },
+            { listDataName: "information", linkTitle: "Information", listDataLink: "/" },
+            { listDataName: "legal", linkTitle: "Legal", listDataLink: "/" },
+            { listDataName: "privacy", linkTitle: "Privacy", listDataLink: "/" },
         ],
     },
     {
         listTitle: "social",
         listDataLinks: [
-            { listDataName: <BsFacebook />, linkTitle: "facebook", listDataLink: "/" },
-            { listDataName: <BsTwitter />, linkTitle: "twitter", listDataLink: "/" },
-            { listDataName: <BsLinkedin />, linkTitle: "linkedIn", listDataLink: "/" },
-            { listDataName: <BsGithub />, linkTitle: "github", listDataLink: "/" },
+            { listDataName: <BsFacebook />, linkTitle: "Facebook", listDataLink: "/" },
+            { listDataName: <BsTwitter />, linkTitle: "Twitter", listDataLink: "/" },
+            { listDataName: <BsLinkedin />, linkTitle: "LinkedIn", listDataLink: "/" },
+            { listDataName: <BsGithub />, linkTitle: "Github", listDataLink: "/" },
         ],
     },
 ];
