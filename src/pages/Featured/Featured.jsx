@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import Container from "../../utils/container";
 
 import SectionTitle from "../../components/Global/SectionTitle";
@@ -14,6 +16,10 @@ import {
 import AllFeaturedItems from "../../data/featured-items";
 
 const Featured = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <section>
             <Container>
