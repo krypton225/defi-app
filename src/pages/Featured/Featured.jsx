@@ -1,7 +1,8 @@
 import Container from "../../utils/container";
 
+import SectionTitle from "../../components/Global/SectionTitle";
+
 import {
-    FeaturedTitle,
     FeaturedCardsContainer,
     FeaturedCard,
     FeaturedCardIcon,
@@ -16,7 +17,7 @@ const Featured = () => {
     return (
         <section>
             <Container>
-                <FeaturedTitle>featured items</FeaturedTitle>
+                <SectionTitle text={"featured items"} />
 
                 <FeaturedCardsContainer>
                     {
