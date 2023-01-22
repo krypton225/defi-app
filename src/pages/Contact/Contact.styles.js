@@ -8,9 +8,9 @@ export const ContactContainer = styled.div`
     display: grid;
     align-items: start;
     grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
+    gap: 4rem;
     
-    @media (max-width: 768px) {
+    @media (max-width: 991px) {
         grid-template-columns: repeat(1, 1fr);
     }
 `;
@@ -59,9 +59,13 @@ export const ContactGetTouchLinksContainer = styled.a`
     margin-block: 1.1rem;
     display: flex;
     align-items: center;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 500;
     color: var(--primary-color);
+
+    @media (max-width: 676px) {
+        font-size: 1.4rem;
+    }
 `;
 
 /* *
@@ -82,4 +86,56 @@ export const ContactGetTouchLinksTextLink = styled.p`
 /* *
 * =========== ContactForm =========== *
 **/
-export const ContactForm = styled.form``;
+export const ContactForm = styled.form`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+`;
+
+/* *
+* =========== ContactFormInput =========== *
+**/
+export const ContactFormInput = styled.input`
+    width: 100%;
+    margin-block: 1.2rem;
+    padding: 1.1rem 1.6rem;
+    border: 0.1rem solid #aaa;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    caret-color: var(--primary-color);
+
+    &::placeholder {
+        text-transform: capitalize;
+    }
+
+    &:focus {
+        outline: none;
+    }
+`;
+
+/* *
+* =========== ContactFormTextArea =========== *
+**/
+export const ContactFormTextArea = styled.textarea`
+    width: 100%;
+    min-height: 12rem;
+    max-height: 16.5rem;
+    margin-block: 1.2rem;
+    padding: 1.1rem 1.6rem;
+    border: 0.1rem solid #aaa;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    caret-color: var(--primary-color);
+    resize: vertical;
+    font-family: "Nunito", sans-serif !important;
+
+    &::placeholder {
+        text-transform: capitalize;
+    }
+
+    &:focus {
+        outline: none;
+    }
+`;

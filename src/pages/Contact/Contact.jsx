@@ -5,6 +5,8 @@ import Container from "../../utils/container";
 import {
     ContactContainer,
     ContactForm,
+    ContactFormInput,
+    ContactFormTextArea,
     ContactGetTouch,
     ContactGetTouchLinks,
     ContactGetTouchLinksContainer,
@@ -47,7 +49,13 @@ const Contact = () => {
                     </ContactGetTouch>
 
                     <ContactForm>
-                        ...
+                        <ContactFormInput type="text" placeholder="first name" autoComplete="new-password"></ContactFormInput>
+
+                        <ContactFormInput type="text" placeholder="second name" autoComplete="new-password"></ContactFormInput>
+
+                        <ContactFormInput type="email" placeholder="email" autoComplete="new-password"></ContactFormInput>
+
+                        <ContactFormTextArea placeholder="message"></ContactFormTextArea>
                     </ContactForm>
                 </ContactContainer>
             </Container>
