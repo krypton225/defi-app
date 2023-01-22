@@ -7,7 +7,7 @@ import LogoImage from "../../assets/svg/logo.svg";
 const Logo = () => {
     return (
         <MainLogo>
-            <Link to="/">
+            <Link to="/" title="Defi">
                 <LogoImageStyle>
                     <img src={LogoImage} alt="Logo" />
                 </LogoImageStyle>
