@@ -2,6 +2,8 @@ import { Fragment } from "react";
 
 import Container from "../../utils/container";
 
+import SectionTitle from "../../components/Global/SectionTitle";
+
 import AllEarnItems from "../../data/earn-items";
 
 import {
@@ -17,14 +19,13 @@ import {
     EarnCardPriceTime,
     EarnCardsContainer,
     EarnCardTitle,
-    EarnTitle
 } from "./Earn.styles";
 
 const Earn = () => {
     return (
         <section>
             <Container>
-                <EarnTitle>Our services for earnings</EarnTitle>
+                <SectionTitle text={"Our services for earnings"} />
 
                 <EarnCardsContainer>
                     {

@@ -1,28 +1,6 @@
 import styled from "styled-components";
 
 /* *
-* =========== EarnTitle =========== *
-**/
-export const EarnTitle = styled.p`
-    width: 100%;
-    position: relative;
-    text-align: center;
-    font-size: 3rem;
-    text-transform: capitalize;
-
-    &::after {
-        content: "";
-        width: 10%;
-        height: 0.3rem;
-        border-radius: 1rem;
-        position: absolute;
-        bottom: -0.55rem;
-        left: 45%;
-        background-color: var(--primary-color);
-    }
-`;
-
-/* *
 * =========== EarnCardsContainer =========== *
 **/
 export const EarnCardsContainer = styled.div`
