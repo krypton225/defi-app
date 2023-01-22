@@ -1,5 +1,6 @@
 /* nunito-200 - latin */
 @font-face {
+  font-display: swap;
   font-family: "Nunito";
   font-style: normal;
   font-weight: 200;
@@ -15,6 +16,7 @@
 }
 /* nunito-300 - latin */
 @font-face {
+  font-display: swap;
   font-family: "Nunito";
   font-style: normal;
   font-weight: 300;
@@ -30,6 +32,7 @@
 }
 /* nunito-regular - latin */
 @font-face {
+  font-display: swap;
   font-family: "Nunito";
   font-style: normal;
   font-weight: 400;
@@ -46,6 +49,7 @@
 }
 /* nunito-500 - latin */
 @font-face {
+  font-display: swap;
   font-family: "Nunito";
   font-style: normal;
   font-weight: 500;
@@ -61,6 +65,7 @@
 }
 /* nunito-600 - latin */
 @font-face {
+  font-display: swap;
   font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
@@ -76,6 +81,7 @@
 }
 /* nunito-800 - latin */
 @font-face {
+  font-display: swap;
   font-family: "Nunito";
   font-style: normal;
   font-weight: 800;
@@ -91,6 +97,7 @@
 }
 /* nunito-700 - latin */
 @font-face {
+  font-display: swap;
   font-family: "Nunito";
   font-style: normal;
   font-weight: 700;
@@ -106,6 +113,7 @@
 }
 /* nunito-900 - latin */
 @font-face {
+  font-display: swap;
   font-family: "Nunito";
   font-style: normal;
   font-weight: 900;

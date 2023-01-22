@@ -11,7 +11,7 @@ import {
 
 import CustomButton from "../../components/CustomButton/CustomButton";
 
-import LandingImage from "../../assets/images/hero-img.png";
+import LandingImage from "../../assets/images/hero-img.webp";
 
 const FirstLanding = () => {
     return (

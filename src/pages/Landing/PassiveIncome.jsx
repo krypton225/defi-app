@@ -10,7 +10,7 @@ import {
     ContainerLandingButtons,
 } from "./Landing.styles"
 
-import PassiveIncomeImage from "../../assets/images/trade.png";
+import PassiveIncomeImage from "../../assets/images/trade.webp";
 
 import CustomButton from "../../components/CustomButton/CustomButton";
 
