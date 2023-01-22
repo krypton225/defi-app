@@ -26,10 +26,6 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  /* height: 200000px; */
-}
-
 body::-webkit-scrollbar {
   width: 0;
   border-radius: 4.5rem;
@@ -55,6 +51,10 @@ body::-webkit-scrollbar-track-piece {
 
 a {
   text-decoration: none !important;
+}
+
+a.active {
+  color: var(--primary-color);
 }
 
 ul {

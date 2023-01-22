@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 /* *
@@ -65,7 +65,7 @@ export const NavbarListItems = styled.li`
 /* *
 * =========== NavbarListItems =========== *
 **/
-export const NavbarLinkItems = styled(Link)`
+export const NavbarLinkItems = styled(NavLink)`
    display: block;
    padding: 0.5rem 1rem;
    font-size: 1.7rem;
