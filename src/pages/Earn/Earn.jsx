@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 
 import Container from "../../utils/container";
 
@@ -22,6 +22,10 @@ import {
 } from "./Earn.styles";
 
 const Earn = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <section>
             <Container>
